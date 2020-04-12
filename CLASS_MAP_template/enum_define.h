@@ -1,0 +1,9 @@
+#pragma once
+
+enum BSTNODE_TYPE
+{
+	BST_LEFTCHILD,
+	BST_RIGHTCHILD,
+	BST_PARENT,
+	END,
+};
