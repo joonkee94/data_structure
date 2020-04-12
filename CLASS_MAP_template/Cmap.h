@@ -146,7 +146,7 @@ void MAP<key, data>::insert(const PAIR<key, data>& _pair)
 
 	if (nullptr == this->root)
 	{
-		//아직 아무것도 넣지 않았다!(첫번째 데이터가 들어온다!)
+		//아직 아무것도 넣지 않았다!(첫번째 데이터가 들어온다!)2
 		this->root = newnode;
 	}
 	else
